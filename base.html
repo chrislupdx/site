@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Is this what you want?</title>
+<!-- material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+ 
+
+ <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>	
+
+<!-- jquery -->
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+	 
+ <!-- smooth scrolling -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	  <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+	  <script>
+	  $('.smooth').on('click', function() {
+	      $.smoothScroll({
+	          scrollElement: $('body'),
+	          scrollTarget: '#' + this.id
+	      });      
+	      return false;
+	  });
+	  </script>
+
+</head>
+<body>
+<div class="row" id ="fuckit">
+    <div class="col s12 m9 l10">
+      <div id="introduction pg1" class="section scrollspy">
+        <h5>Hi I'm Chris</h5>
+        <p>You're proably here for content I've made, and frankly most of what I do is impermaneant in nature, so I'll do my best to show you a snapshot of what I've done</p>
+      </div>
+
+      <div id="school pg2" class="section scrollspy">
+        <h5>Capstone: LFW</h5>
+        <p>I built a CRM for my own job search, it's likely if you're in it!</p>
+        <img class="responsive-img" src="CRM.jpg">
+      </div>
+
+      <div id="rightnow pg3" class="section scrollspy">
+        <h5>Current Ventures</h5>
+        <img class="responsive-img" src="Kanbans.jpg">
+        <p>QR</p>
+        <p>Job_fish</p>
+      </div>
+    
+      <div id="about pg4" class="section scrollspy">
+      	<h5>More about me! </h5>
+      	<p>Anthropologist+cognitive science fan turned web developper looking to make a living. Value Neutral Text. There is nothing moreor less than this. </p>
+      </div>
+
+      <div id="resume pg5" class="section scrollspy">
+        <h5>Thanks for visiting </h5>
+        <a href="html_images.asp">Did you want a Resume?</a>
+        <p>Let's keep in touch</p>
+        <i class="material-icons">cloud</i> 
+        <i class="material-icons">cloud</i>
+        <i class="material-icons">cloud</i>
+      </div>
+    </div>
+
+    <div class="col hide-on-small-only m3 l2">
+      <ul class="section table-of-contents">
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#school">Education</a></li>
+        <li><a href="#rightnow">What I work on</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+      </ul>
+    </div>
+    </div>
+</body>
+	<script src="script.js"></script>
+</html>
+
