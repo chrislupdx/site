@@ -1,7 +1,21 @@
-.section {
-  height: 1000px;
+
+#introduction {
+  background-color: red;
+  height: 600px;
 }
 
-.row {
-	background-color: black;
+#rightnow {
+  background-color: yellow;
+  height: 600px;
 }
+
+#about {
+  background-color: blue;
+  height: 600px;
+}
+
+#contact {
+  background-color: black;
+  height: 600px;
+}
+

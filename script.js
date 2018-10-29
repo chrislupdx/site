@@ -1,4 +1,8 @@
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.scrollspy');
-    var instances = M.ScrollSpy.init(elems, options);
+$(document).ready(function(){
+  $('#content').pushpin({
+    top: $('#content').offset().top
   });
+  $('.scrollspy').scrollSpy({
+    scrollOfffset: 0
+  });
+});
