@@ -1,3 +1,6 @@
+a.active {
+  background-color: #ea454b;
+}
 
 #introduction {
   background-color: red;
@@ -19,3 +22,24 @@
   height: 600px;
 }
 
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+  .pin-top {
+    position: relative;
+  }
+
+  .pin-bottom {
+    position: relative;
+  }
+
+  .pinned {
+    position: fixed !important;
+  }
+
+  .nav-wrapper {
+  	height: 100%;
+  }
